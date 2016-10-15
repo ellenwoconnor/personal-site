@@ -1,0 +1,30 @@
+#name {
+  font-family: Palatino, serif;
+  font-size: 48px;
+  padding: 20px;
+}
+
+.btn.btn-default.page-link {
+  border-color: white;
+  text-align: center;
+}
+
+.btn.btn-default.page-link:hover {
+  background-color:#b30000;
+  color: white;
+  font-weight: bold;
+}
+
+.page-content {
+  border: 2px dotted #a6a6a6;
+  padding: 7%;
+  margin: 5px 0;
+}
+
+.table {
+  display: table;
+}
+
+.table-cell {
+  display: table-cell;
+}
