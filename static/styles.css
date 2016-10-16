@@ -10,6 +10,12 @@
 }
 
 .btn.btn-default.page-link:hover {
+  background-color:#e8b2b2;
+  color: white;
+  font-weight: bold;
+}
+
+.page-link.selected {
   background-color:#b30000;
   color: white;
   font-weight: bold;
@@ -17,14 +23,11 @@
 
 .page-content {
   border: 2px dotted #a6a6a6;
-  padding: 7%;
+  padding: 5%;
   margin: 5px 0;
 }
 
-.table {
-  display: table;
-}
-
-.table-cell {
-  display: table-cell;
+h3 {
+  font-family: serif;
+  padding: 10px 0;
 }
