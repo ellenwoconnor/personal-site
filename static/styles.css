@@ -1,5 +1,5 @@
 #name {
-  font-family: Palatino, serif;
+  font-family: 'Bitter', sans-serif;
   font-size: 48px;
   padding: 20px;
 }
@@ -23,11 +23,38 @@
 
 .page-content {
   border: 2px dotted #a6a6a6;
-  padding: 5%;
+  padding: 4%;
   margin: 5px 0;
 }
 
-h3 {
-  font-family: serif;
+h3.section-title {
   padding: 10px 0;
+  text-align: center;
+  font-family: 'Bitter', sans-serif;
+}
+
+h5.subtitle {
+  text-align: center;
+}
+
+td {
+  padding: 5px;
+}
+
+p, li {
+  font-family: 'Raleway', serif;
+}
+
+.section-item {
+  padding: 5px 0;
+  font-family: 'Raleway', serif;
+}
+
+.resume-section {
+  padding: 15px;
+}
+
+.overview-container {
+  background-color: #f3f3f3;
+  padding: 15px;
 }
