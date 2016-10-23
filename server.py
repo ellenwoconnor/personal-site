@@ -4,8 +4,8 @@ app = Flask(__name__)
 # app.secret_key = 'this-should-be-something-unguessable'
 
 @app.route('/')
-def index():
-    return render_template('index.html', current_page='about')
+def about():
+    return render_template('about.html', current_page='about')
 
 @app.route('/research')
 def research():
@@ -14,6 +14,10 @@ def research():
 @app.route('/resume')
 def resume():
     return render_template('resume.html', current_page='resume')
+
+@app.route('/odyssey')
+def odyssey():
+    return render_template('odyssey.html', current_page='odyssey')
 
 
 if __name__ == "__main__":

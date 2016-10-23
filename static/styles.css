@@ -21,16 +21,24 @@
   font-weight: bold;
 }
 
-.page-content {
-  border: 2px dotted #a6a6a6;
-  padding: 4%;
+.base-content {
+/*  border-top: 5px solid #d3d3d3;*/
+  padding: 5% 0;
   margin: 5px 0;
+}
+
+.page-content {
+  border: 2px solid gray;
+  padding: 5% 0;
+  margin: 5px 0;
+  background-color: white;
 }
 
 h3.section-title {
   padding: 10px 0;
   text-align: center;
   font-family: 'Bitter', sans-serif;
+  border-bottom: 1px solid gray;
 }
 
 h5.subtitle {
@@ -45,16 +53,38 @@ p, li {
   font-family: 'Raleway', serif;
 }
 
+footer > p {
+  padding-left: 10%;
+}
+
+.emphasis-item {
+  font-family: 'Bitter';
+  font-weight: 400;
+}
+
 .section-item {
   padding: 5px 0;
   font-family: 'Raleway', serif;
 }
 
-.resume-section {
+.resume-section, ul.section-item {
   padding: 15px;
 }
 
 .overview-container {
   background-color: #f3f3f3;
   padding: 15px;
+  margin: 0 15px;
+}
+
+#about {
+  background-image: url('purkinje2.jpg');
+}
+
+#research {
+  background-image: url('krifka.jpg');
+}
+
+#resume {
+  background-image: url('markov3.jpg');
 }

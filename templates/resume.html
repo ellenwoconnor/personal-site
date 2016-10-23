@@ -3,37 +3,45 @@
 {% block title %}About me{% endblock %}
 
 {% block content %}
+<div class='col-xs-10 col-xs-offset-1 page-content'>
   <div class='row'>
     <div class='col-xs-10 col-xs-offset-1'>
-      <img src='static/ellenpic2.jpg'>
+      <div class='overview-container'>
+        <p>
+          <span class='emphasis-item'>Overview</span>: As a linguist-turned-engineer, my expertise lies at the intersection of language, technology and cognitive science, and their applications within both research and industry. 
+        </p>
+      </div>
     </div>
   </div>
 
   <div class='row'>
-    <div class='col-xs-5 col-xs-offset-1'>
-      <div class='resume-section page-content'>
-        <h3 class='section-title'>Professional</h3>
+    <h3 class='section-title'>Professional</h3>
+  </div>
+  <div class='row'>
+    <div class='col-xs-10 col-xs-offset-1'>
+      <div class='resume-section'>
         <div class='section-item'>
-          <div>2016 - Present: Software Engineer</div>
-          <div>GoDaddy (<a href='https://locu.godaddy.com'>Locu</a>), San Francisco CA</div>
+          <h5>2016 - Present: Software Engineer - Godaddy (<a href='https://locu.godaddy.com'>Locu</a>), San Francisco CA</h5>
+          <p>Our app helps small business owners improve their search engine visibility by giving targeted suggestions for improving the text content on a user's personal site, and then automatically applying those changes to their existing site for them. As a full-stack developer I help build our apps and refine them using quantitative product research (a/b testing).</p>
         </div>
         <div class='section-item'>
-          <div>2009 - 2016: Research Fellow</div>
-          <div>USC (<a href='https://dornsife.usc.edu/ling/'>Department of Linguistics</a>), Los Angeles CA</div>
+          <h5>2009 - 2016: Research Fellow - USC (<a href='https://dornsife.usc.edu/ling/'>Department of Linguistics</a>), Los Angeles CA</h5>
+          <p>As a graduate research fellow, I investigated information processing strategies in language and other cognitive domains. My psycholinguistic research led me to design and implement dozens of experiments, and I began using Matlab, Python & R to process, clean, analyze and visualize experimental data. During my time at USC I also developed an interest in neuroscience, serving as a research assistant for an fMRI project looking at <a href='http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0082169'>decision-making networks in the brain</a>, and a visiting scholar at the <a href='http://www.psych.nyu.edu/nellab/'>NYU Neuroscience of Language Lab</a>.</p>
         </div>
         <div class='section-item'>
-          <div>2003 - 2006: Content Developer</div>
-          <div><a href='https://www.alelo.com/'>Alelo</a>, Los Angeles CA</div>
+          <h5>2003 - 2006: Content Developer - <a href='https://www.alelo.com/'>Alelo</a>, Los Angeles CA</h5>
+          <p>I first began to flex my linguist muscles at Alelo, where I designed chatbots to help users acquire foreign language proficiency. My role there started with copy writing/curriculum development, but then rapidly expanded into content strategy and product management. As an added bonus, I got to engage in linguistic fieldwork on understudied languages like Dari and Pashto to support speech recognition models and language learning curricula.</p>
         </div>
         <div class='section-item'>
-          <div>2003 - 2006: Writing Tutor</div>
-          <div>UCSC (<a href='http://lss.ucsc.edu/'>Learning Support Services</a>), Santa Cruz CA</div>
+          <h5>2003 - 2006: Writing Tutor - UCSC (<a href='http://lss.ucsc.edu/'>Learning Support Services</a>), Santa Cruz CA</h5>
+          <p>During college I was nominated by a UCSC professor to be a writing tutor for incoming freshmen, and spent several years helping students improve their critical thinking, essay organization and English skills.</p>
         </div>      
       </div>
     </div>
 
-    <div class='col-xs-5'>
-      <div class='resume-section page-content'>
+  <div class='row'>
+    <div class='col-xs-5 col-xs-offset-1'>
+      <div class='resume-section'>
         <h3 class='section-title'>Education</h3>
         <div class='section-item'>
           <div>2015 - PhD, Linguistics</div>
@@ -52,6 +60,55 @@
           <div>Georg-August Universitaet, Goettingen, Germany</div>
         </div>
       </div>
-    </div>  
+    </div> 
+    <div class='col-xs-5'>
+      <div class='resume-section'>
+        <h3 class='section-title'>Honors</h3>
+        <ul class='section-item'>
+          <li class='honors' id='nsf'>NSF Graduate Research Fellowship</li>
+          <li class='honors' id='provost'>USC Provost's Fellowship</li>
+          <li class='honors' id='partnership'>Partnership Scholarship</li>
+          <li>Phi Kappa Phi</li>
+          <li>Phi Beta Kappa</li>
+          <li>Graduate with Honors</li>
+          <li>Dean's List</li>
+        </ul>    
+      </div>
+    </div>
   </div>
+
+  <div class='row'>
+    <div class='col-xs-5 col-xs-offset-1'>
+      <div class='resume-section'>
+        <h3 class='section-title'>Research Methods</h3>
+        <ul class='section-item'>
+          <li>Crowdsourcing</li>
+          <li>A/B testing</li>
+          <li>Reaction time measurement</li>
+          <li>fMRI</li>
+          <li>MEG</li>
+          <li>Corpus work</li>
+        </ul>    
+      </div>
+    </div>
+    <div class='col-xs-5'>
+      <div class='resume-section'>
+        <h3 class='section-title'>Technical Expertise</h3>
+        <div class='section-item'>
+          <div><i>Languages</i></div>
+          <div>Python, JavaScript</div>
+        </div>
+        <div class='section-item'>
+          <div><i>Data</i></div>
+          <div>Statistical analysis (including cluster and regression analysis), SQL/Hive, R, scikit learn, NLTK</div>
+        </div>
+        <div class='section-item'>
+          <div><i>Web development</i></div>
+          <div>HTML, CSS, Django/Flask, node.js, React</div>
+        </div>  
+      </div>
+    </div>
+  </div>
+</div>
+
 {% endblock %}
