@@ -57,6 +57,15 @@ h4 {
   text-align: center;
 }
 
+a {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
 .emphasis-item {
   font-family: 'Bitter';
   font-weight: 400;
@@ -77,10 +86,6 @@ h4 {
   margin: 0 15px;
 }
 
-a {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
 #about {
   background-image: url('purkinje2.jpg');
 }
@@ -98,3 +103,8 @@ a {
   font-size: 48px;
   padding: 20px;
 }
+
+.no-margin {
+  margin: 0;
+}
+
