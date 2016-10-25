@@ -17,7 +17,6 @@
 }
 
 .base-content {
-/*  border-top: 5px solid #d3d3d3;*/
   padding: 5% 0;
   margin: 5px 0;
 }
@@ -77,13 +76,17 @@ img {
 }
 
 .resume-section, ul.section-item {
-  padding: 15px;
+  padding: 0 15px;
 }
 
 .overview-container {
   background-color: #f3f3f3;
   padding: 15px;
   margin: 0 15px;
+}
+
+.no-margin {
+  margin: 0;
 }
 
 #about {
@@ -104,7 +107,6 @@ img {
   padding: 20px;
 }
 
-.no-margin {
-  margin: 0;
+#linguist-meme {
+  max-width: 400px;
 }
-

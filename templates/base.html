@@ -3,10 +3,10 @@
 
   <head>
     <title>Ellen W. O'Connor</title>
-      <link rel="stylesheet" href="/static/styles.css">
-      <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css?family=Raleway|Bitter|Muli" rel="stylesheet">
-      <script src="http://code.jquery.com/jquery.js"></script>
+    <link rel="stylesheet" href="/static/styles.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Bitter|Muli" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery.js"></script>
   </head>
 
   <body>
@@ -14,12 +14,12 @@
       <div class='row'>
         <div class='col-xs-10 col-xs-offset-1'>
           <h1 id='name'>Ellen W. O'Connor</h1>
-          <div class='btn-group btn-group-justified' role="group">
-            <a class='btn btn-default page-link {{ 'selected' if current_page == 'about' }}' href='/'>About me</a>
-            <a class='btn btn-default page-link {{ 'selected' if current_page == 'research' }}' href='/research'>Research</a>
-            <a class='btn btn-default page-link {{ 'selected' if current_page == 'resume' }}' href='/resume'>Professional</a>
-            <a class='btn btn-default page-link {{ 'selected' if current_page == 'odyssey' }}' href='/odyssey'>Brain Odyssey</a>
-          </div>
+          <ul class='nav nav-pills nav-justified'>
+            <li role='button'><a class='btn btn-default page-link {{ 'selected' if current_page == 'about' }}' href='/'>About me</a></li>
+            <li role='button'><a class='btn btn-default page-link {{ 'selected' if current_page == 'research' }}' href='/research'>Research</a></li>
+            <li role='button'><a class='btn btn-default page-link {{ 'selected' if current_page == 'resume' }}' href='/resume'>Professional</a></li>
+            <li role='button'><a class='btn btn-default page-link {{ 'selected' if current_page == 'odyssey' }}' href='/odyssey'>Brain Odyssey</a></li>
+          </ul>
         </div>
       </div>
     </div>
